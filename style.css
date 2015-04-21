@@ -1,84 +1,65 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-weight: 700;
-    font-family: sans-serif;
-    -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 700;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
+
 body {
-    background: #fafafa;
-}
-.space-right {
-    margin-right: 12px;
-}
-.space-left {
-    margin-left: 12px;
+  background: #fafafa;
 }
 .container {
-    width: 360px;
-    padding: 0 10px;
-    height: 40px;
-    margin:50px auto;
+  width: 360px;
+  padding: 0 10px;
+  height: 40px;
+  margin: 50px auto;
 }
+
 h1 {
-    text-align: center;
+  text-align: center;
 }
+
 p {
-    float: left;
-    line-height: 40px;
-    font-size: 32px;
-    color: #888;
-    text-align: center;
+  float: left;
+  line-height: 40px;
+  font-size: 32px;
+  color: #888;
+  text-align: center;
 }
+
 .scroller {
-    height: 40px;
-    line-height: 40px;
-    float: left;
-    overflow: hidden;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  overflow: hidden;
 }
+
 .scroller span {
-    display: block;
-    font-size: 32px;
-    color: #222;
+  display: block;
+  font-size: 32px;
+  color: #222;
 }
+
 .scroller .inner {
-    -webkit-animation: scroll 10s infinite ease-out;
-    -moz-animation: scroll 10s infinite ease-out;
-    -o-animation: scroll 10s infinite ease-out;
-    animation: scroll 10s infinite ease-out;
+  animation: scroll 7s infinite ease-out;
 }
+
 @keyframes scroll {
-    0% {
-        margin-top: 0px;
-    }
-    18% {
-        margin-top: 0px;
-    }
-    20% {
-        margin-top: -40px;
-    }
-    38% {
-        margin-top: -40px;
-    }
-    40% {
-        margin-top: -80px;
-    }
-    58% {
-        margin-top: -80px;
-    }
-    60% {
-        margin-top: -120px;
-    }
-    78% {
-        margin-top: -120px;
-    }
-    80% {
-        margin-top: -160px;
-    }
-    98% {
-        margin-top: -160px;
-    }
-    100% {
-        margin-top: 0px;
-    }
+  0% {margin-top: 0px;}
+  18% {margin-top: 0px;}
+  
+  20% {margin-top: -40px;}
+  38% {margin-top: -40px;}
+  
+  40% {margin-top: -80px;}
+  58% {margin-top: -80px;}
+  
+  60% {margin-top: -120px;}
+  78% {margin-top: -120px;}
+  
+  80% {margin-top: -160px;}
+  98% {margin-top: -160px;}
+  
+  100% {margin-top: 0px;}
 }
