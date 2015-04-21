@@ -42,24 +42,84 @@ p {
 }
 
 .scroller .inner {
-  animation: scroll 7s infinite ease-out;
+  -webkit-animation: scroll 7s infinite ease-out;
+     -moz-animation: scroll 7s infinite ease-out;
+       -o-animation: scroll 7s infinite ease-out;
+          animation: scroll 7s infinite ease-out;
+}
+
+@-webkit-keyframes scroll {
+  0% {margin-top: 0px;}
+  18% {margin-top: 0px;}
+
+  20% {margin-top: -40px;}
+  38% {margin-top: -40px;}
+
+  40% {margin-top: -80px;}
+  58% {margin-top: -80px;}
+
+  60% {margin-top: -120px;}
+  78% {margin-top: -120px;}
+
+  80% {margin-top: -160px;}
+  98% {margin-top: -160px;}
+
+  100% {margin-top: 0px;}
+}
+
+@-moz-keyframes scroll {
+  0% {margin-top: 0px;}
+  18% {margin-top: 0px;}
+
+  20% {margin-top: -40px;}
+  38% {margin-top: -40px;}
+
+  40% {margin-top: -80px;}
+  58% {margin-top: -80px;}
+
+  60% {margin-top: -120px;}
+  78% {margin-top: -120px;}
+
+  80% {margin-top: -160px;}
+  98% {margin-top: -160px;}
+
+  100% {margin-top: 0px;}
+}
+
+@-o-keyframes scroll {
+  0% {margin-top: 0px;}
+  18% {margin-top: 0px;}
+
+  20% {margin-top: -40px;}
+  38% {margin-top: -40px;}
+
+  40% {margin-top: -80px;}
+  58% {margin-top: -80px;}
+
+  60% {margin-top: -120px;}
+  78% {margin-top: -120px;}
+
+  80% {margin-top: -160px;}
+  98% {margin-top: -160px;}
+
+  100% {margin-top: 0px;}
 }
 
 @keyframes scroll {
   0% {margin-top: 0px;}
   18% {margin-top: 0px;}
-  
+
   20% {margin-top: -40px;}
   38% {margin-top: -40px;}
-  
+
   40% {margin-top: -80px;}
   58% {margin-top: -80px;}
-  
+
   60% {margin-top: -120px;}
   78% {margin-top: -120px;}
-  
+
   80% {margin-top: -160px;}
   98% {margin-top: -160px;}
-  
+
   100% {margin-top: 0px;}
 }
